@@ -1,14 +1,15 @@
 {
-    "name": "playground",
-    "version": "1.0.0",
-    "description": "a simple app to use as a playground for dev work",
-    "repository": "https://github.com/gmmurray/playground",
-    "author": "gmmurray",
-    "license": "MIT",
-    "scripts": {
-        "js": "nodemon javascript.js"
-    },
-    "dependencies": {
-        "nodemon": "^2.0.15"
-    }
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "a simple app to use as a playground for dev work",
+  "repository": "https://github.com/gmmurray/playground",
+  "author": "gmmurray",
+  "license": "MIT",
+  "scripts": {
+    "js": "nodemon javascript.js",
+    "reset": "git reset --hard HEAD"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
