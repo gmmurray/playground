@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "js": "nodemon javascript.js",
-    "html": "open-cli ./html.html"
+    "html": "open-cli ./html.html",
+    "reset": "git reset --hard HEAD"
   },
   "dependencies": {
     "nodemon": "^2.0.15",
