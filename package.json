@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "js": "nodemon javascript.js --watch javascript.js",
-    "ts": "nodemon typescript.ts --watch typescript.ts",
+    "ts": "nodemon typescript.ts",
     "html": "open-cli ./basicWebPage.html",
     "reset": "git reset --hard HEAD"
   },
