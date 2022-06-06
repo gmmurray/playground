@@ -6,12 +6,16 @@
   "author": "gmmurray",
   "license": "MIT",
   "scripts": {
-    "js": "nodemon javascript.js",
+    "js": "nodemon javascript.js --watch javascript.js",
+    "ts": "nodemon typescript.ts --watch typescript.ts",
     "html": "open-cli ./basicWebPage.html",
     "reset": "git reset --hard HEAD"
   },
   "dependencies": {
+    "@types/node": "^17.0.40",
     "nodemon": "^2.0.15",
-    "open-cli": "^7.0.1"
+    "open-cli": "^7.0.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
   }
 }
